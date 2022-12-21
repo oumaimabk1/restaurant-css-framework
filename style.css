@@ -1,0 +1,71 @@
+nav{
+    height: 100px;;
+    overflow: hidden;
+}
+.carousel-caption{
+    position:absolute;
+    top: 30vh;
+}
+.carousel-inner {
+    height: calc(100vh - 10vh);
+}
+h1{
+    font-family: cursive;
+    font-size: 7vw;
+}
+.description{
+    background-color: black;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.8;
+    color: #A1A1A1;
+    overflow:auto;
+}
+
+.description h3,h4{
+    color: rgb(249, 253, 253);
+}
+.description hr{
+    margin: 30px auto;
+    width: 60px;
+}
+.back-img{
+    background-image: url(./images/banner-2.avif);
+    background-size: cover;
+    min-height: 400px;
+}
+.horaires{
+    background-color: #161c21;
+}
+a{
+    text-decoration: none;
+    color:#A1A1A1;
+    cursor: pointer;
+}
+li{
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: cursive;
+}
+@media screen and (min-width:100px){
+    .carousel .carousel-inner {
+        height: 50vw;
+    }
+    nav{
+        z-index: 10;
+    }
+    .ms-auto{
+        background-color: white;
+        padding: 2vw;
+        border-radius: 5px;
+    }
+    
+}
+
+/***************** page contact**/
+.contact-header{
+    background-image: url('./images/banner-2.avif');
+    background-size: cover;
+    background-position: center;
+
+}
