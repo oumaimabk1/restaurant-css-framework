@@ -54,6 +54,9 @@ li{
     .carousel .carousel-inner {
         height: 50vw;
     }
+    .carousel-caption{
+        bottom :5rem
+    }
     nav{
         z-index: 10;
     }
@@ -95,4 +98,17 @@ li{
     color: #FFF;
     text-shadow: 0 0 10px rgb(0 0 0 / 10%);
 
+}
+/**page photo*/
+#p1,#p2,#p3 {
+    display: none;
+}
+
+.pagination {
+
+    --bs-pagination-color: #000;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(223, 166, 166, 0.25);
+    --bs-pagination-hover-color: rgba(223, 166, 166);
+    --bs-pagination-active-bg:rgba(64, 32, 48, 0.549);
+    --bs-pagination-focus-color: rgba(64, 32, 48, 0.549);
 }
