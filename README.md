@@ -30,7 +30,7 @@
 1. Just clone the project
 
 ```
-git clone https://gitlab.com/Oumaimabk/gildedrose-refactoring-kata-javascript.git
+git clone https://github.com/oumaimabk1/restaurant-css-framework.git
 ```
 
 2. Install the dependencies
