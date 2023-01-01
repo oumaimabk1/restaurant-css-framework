@@ -2,16 +2,16 @@
   "name": "restaurant-css-framework",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oumaimabk1/restaurant-css-framework.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,7 +20,12 @@
   "homepage": "https://github.com/oumaimabk1/restaurant-css-framework#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
-    "parcel": "^2.8.2",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "jquery-ui-dist": "^1.13.2"
   }
 }
