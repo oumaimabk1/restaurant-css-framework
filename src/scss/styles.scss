@@ -1,5 +1,5 @@
 // Import all of Bootstrap's CSS
-@import "~bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 nav{
     height: 100px;
@@ -9,7 +9,7 @@ nav img{
     height: 70px;
 }
 .carousel-caption{
-    bottom :15rem;
+    bottom :30rem;
 }
 .carousel-inner {
     height: calc(100vh - 20vh);
