@@ -1,9 +1,15 @@
+// Import all of Bootstrap's CSS
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 nav{
     height: 100px;
     margin-top: -2px;
 }
-.carousel-item{
-    height: 100%;
+nav img{
+    height: 70px;
+}
+.carousel-caption{
+    bottom :30rem;
 }
 
 .carousel-inner {
@@ -34,7 +40,7 @@ h1{
     width: 60px;
 }
 .back-img{
-    background-image: url(./images/banner-2.avif);
+    background-image: url(../../images/banner-2.avif);
     background-size: cover;
     min-height: 400px;
 }
@@ -51,12 +57,17 @@ li{
     font-weight: 600;
     font-family: cursive;
 }
-@media screen and (min-width:400px ) and (max-width:991px){
+footer{
+    background-color: #161c21;
+    color: #A1A1A1;
+}
+
+@media screen and (max-width:912px){
     .carousel .carousel-inner {
         height: 50vw;
     }
     .carousel-caption{
-        bottom :3.25rem
+        bottom :5rem
     }
     nav{
         z-index: 10;
@@ -74,16 +85,14 @@ li{
         font-size: 30px;
         font-weight: 1000;
     }
-    
 }
 
-/***************** page contact**/
+/***************** page contact************/
 .contact-header{
-    background-image: linear-gradient(to bottom, rgba(37, 22, 37, 0.5), rgba(0,0,128,0.5)), url("./images/banner-2.avif");
+    background-image: linear-gradient(to bottom, rgba(37, 22, 37, 0.5), rgba(0,0,128,0.5)), url("../../images/banner-2.avif");
     background-size: cover;
     background-position: center;
     position: relative;
-    
 }
 
 .contact-header:before {   
@@ -98,5 +107,16 @@ li{
 .contact-header h1{
     color: #FFF;
     text-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+/**page photo*/
+#p1,#p2,#p3 {
+    display: none;
+}
 
+.pagination {
+    --bs-pagination-color: #000;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(223, 166, 166, 0.25);
+    --bs-pagination-hover-color: rgba(223, 166, 166);
+    --bs-pagination-active-bg:rgba(64, 32, 48, 0.549);
+    --bs-pagination-focus-color: rgba(64, 32, 48, 0.549);
 }
