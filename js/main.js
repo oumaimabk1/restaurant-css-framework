@@ -1,6 +1,3 @@
-// Import all of Bootstrap's JS
-import * as bootstrap from "bootstrap";
-import * as Popper from "@popperjs/core";
 
 document.getElementById("p1").style.display = "flex";
 document.getElementsByClassName("page-link")[0].addEventListener("click", function(){
